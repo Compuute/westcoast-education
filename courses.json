@@ -1,0 +1,85 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "kurstitel": "DevOps Engineer",
+      "kursnummer": "DO100",
+      "kurslängd": "12 dagar",
+      "studieform": "Distans",
+      "startdatum": "2024-09-15",
+      "imageUrl": "devops.jpg",
+      "credits": 20,
+      "price": 19500,
+      "description": "Master modern DevOps practices and tools. Learn continuous integration/deployment (CI/CD), containerization with Docker, orchestration with Kubernetes, cloud services, and infrastructure automation. Hands-on experience with industry-standard tools and real-world scenarios."
+    },
+    {
+      "id": "2",
+      "kurstitel": "Database Management",
+      "kursnummer": "DB200",
+      "kurslängd": "10 dagar",
+      "studieform": "Distans",
+      "startdatum": "2025-02-01",
+      "imageUrl": "db200.jpg",
+      "credits": 15,
+      "price": 17500,
+      "description": "Comprehensive introduction to database design, implementation, and management. Covers SQL, database normalization, and best practices for data modeling. Students will work with real-world database scenarios and learn both theoretical concepts and practical applications."
+    },
+    {
+      "id": "3",
+      "kurstitel": "Artificial Intelligence",
+      "kursnummer": "AI300",
+      "kurslängd": "20 dagar",
+      "studieform": "Klassrum",
+      "startdatum": "2025-03-01",
+      "imageUrl": "ai300.jpg",
+      "credits": 20,
+      "price": 20000,
+      "description": "Explore the principles and applications of artificial intelligence. Topics include machine learning, neural networks, and natural language processing. Students will implement AI algorithms and work on practical projects using modern AI frameworks."
+    },
+    {
+      "id": "4",
+      "kurstitel": "Cybersecurity Essentials",
+      "kursnummer": "SEC400",
+      "kurslängd": "12 dagar",
+      "studieform": "Klassrum",
+      "startdatum": "2025-04-10",
+      "imageUrl": "sec400.jpg",
+      "credits": 12,
+      "price": 16000,
+      "description": "Learn fundamental concepts in cybersecurity including network security, cryptography, and security protocols. Students will gain hands-on experience with security tools and learn about threat detection and prevention strategies."
+    },
+    {
+      "id": "5",
+      "kurstitel": "Cloud Computing",
+      "kursnummer": "CLOUD500",
+      "kurslängd": "18 dagar",
+      "studieform": "Distans",
+      "startdatum": "2025-05-05",
+      "imageUrl": "cloud500.jpg",
+      "credits": 18,
+      "price": 18000,
+      "description": "Master cloud computing concepts and practices. Learn about cloud architectures, deployment models, and major cloud platforms. Students will gain practical experience working with cloud services and developing cloud-native applications."
+    },
+    {
+      "id": "ed11af85-6ea9-4278-9114-583256dc5164",
+      "kursnummer": "1",
+      "kurstitel": "ABAP",
+      "beskrivning": "Grunderna till SAP utveckling",
+      "pris": 50000,
+      "orderDate": "2025-02-07"
+    }
+  ],
+  "customerOrders": [
+    {
+      "id": "7bcc08ca-a23b-4205-b34e-b6e299323957",
+      "orderDate": "2025-01-30",
+      "customer": {
+        "id": "5b84b5bc-39aa-4389-aaea-d91be8e12509",
+        "firstName": "",
+        "lastName": "",
+        "email": ""
+      },
+      "orderItems": []
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1234567890"
+    },
+    {
+      "id": 2,
+      "name": "Anna Svensson",
+      "email": "anna.svensson@example.com",
+      "phone": "+46701234567"
+    },
+    {
+      "id": 3,
+      "name": "Erik Andersson",
+      "email": "erik.andersson@example.com",
+      "phone": "+46707654321"
+    },
+    {
+      "id": 4,
+      "name": "Maria Larsson",
+      "email": "maria.larsson@example.com",
+      "phone": "+46709876543"
+    }
+  ]
+}

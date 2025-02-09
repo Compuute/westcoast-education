@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/site.css" />
+    <link rel="stylesheet" href="../assets/css/colors.css" />
+    <link rel="stylesheet" href="../assets/css/navigation.css" />
+    <link rel="stylesheet" href="../assets/css/utilities.css" />
+    <script
+      src="https://kit.fontawesome.com/55174c58a9.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Westcoast Education | Admin</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <ul class="menu">
+            <li class="logo">
+              <a href="./index.html"
+                ><span><i class="fa-light fa-book-open"></i></span> Westcoast
+                Education</a
+              >
+            </li>
+            <li class="toggle">
+              <input class="menu-btn" type="checkbox" id="menu-btn" />
+              <label class="menu-icon" for="menu-btn"
+                ><span class="nav-icon"></span>
+              </label>
+            </li>
+            <li class="menu-item">
+              <a href="./index.html">Start</a>
+            </li>
+            <li class="menu-item">
+              <a href="./courses.html">Kurser</a>
+            </li>
+            <li class="menu-item">
+              <a href="./checkout.html"
+                ><i class="fa-sharp fa-regular fa-cart-shopping"></i>(<span
+                  id="cartItem"
+                  >0</span
+                >)</a
+              >
+            </li>
+            <li class="menu-item">
+              <a class="active" href="./admin.html">Admin</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Kursadministration</h1>
+
+      <form id="form">
+        <div>
+          <label for="kursnummer">Artikelnummer:</label>
+          <input type="text" id="kursnummer" name="kursnummer" required />
+        </div>
+        <div>
+          <label for="kurstitel">Kurstitel:</label>
+          <input type="text" id="kurstitel" name="kurstitel" required />
+        </div>
+        <div>
+          <label for="beskrivning">Beskrivning:</label>
+          <textarea id="beskrivning" name="beskrivning"></textarea>
+        </div>
+        <div>
+          <label for="pris">Pris:</label>
+          <input type="number" id="pris" name="pris" required />
+        </div>
+        <button type="submit">Lägg till kurs</button>
+      </form>
+
+      <div id="courseList" class="course-list"></div>
+    </main>
+
+    <script type="module" src="../admin.js"></script>
+  </body>
+</html>
